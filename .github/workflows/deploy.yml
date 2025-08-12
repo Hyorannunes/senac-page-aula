@@ -32,5 +32,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: jamesIves/github-pages-deploy-action@v4
         with:
-          branch: main
-          folder: build # <-- Make sure this matches your actual build output folder
+          branch: gh-pages
+          folder: dist
